@@ -2,11 +2,11 @@ import axios from "axios";
 import { META, MANGA, ANIME } from "@consumet/extensions";
 
 const mangaApi = axios.create({
-  baseURL: "https://animxer-api-phi.vercel.app/meta/anilist-manga/",
+  baseURL: "https://animxer-api-cvxg.vercel.app/meta/anilist-manga/",
 });
 
 const animeApi = axios.create({
-  baseURL: "https://animxer-api-phi.vercel.app/meta/anilist/",
+  baseURL: "https://animxer-api-cvxg.vercel.app/meta/anilist/",
 });
 
 const anilist = new META.Anilist({ url: "https://corsproxy.io/?" });
